@@ -1,0 +1,38 @@
+baseurl = "https://blog.jonas-faber.me/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "post"
+  themeColor = "blue"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+
+  
+
+[languages]
+  [languages.en]
+    title = "Blog"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = "© 2021 Powered by <a href=\"https://gohugo.io\">Hugo</a> and <a href=\"https://graphcms.com\">GraphCMS</a>"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    
+
+    [languages.en.params.logo]
+      logoText = "jonas"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+    #   [[languages.en.menu.main]]
+    #     identifier = "about"
+    #     name = "About"
+    #     url = "/about"
+    #   [[languages.en.menu.main]]
+    #     identifier = "showcase"
+    #     name = "Showcase"
+    #     url = "/showcase"
